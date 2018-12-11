@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD14B2F521A956B100EC6729 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD14B2F421A956B100EC6729 /* AppDelegate.m */; };
+		DD14B2FB21A956B100EC6729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD14B2F921A956B100EC6729 /* Main.storyboard */; };
+		DD14B2FE21A956B100EC6729 /* MyLittleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD14B2FC21A956B100EC6729 /* MyLittleApp.xcdatamodeld */; };
+		DD14B30021A956B500EC6729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD14B2FF21A956B500EC6729 /* Assets.xcassets */; };
+		DD14B30321A956B500EC6729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD14B30121A956B500EC6729 /* LaunchScreen.storyboard */; };
+		DD14B30621A956B500EC6729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD14B30521A956B500EC6729 /* main.m */; };
+		DD14B30E21A95B3C00EC6729 /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD14B30D21A95B3C00EC6729 /* MainCollectionViewController.m */; };
+		DD31481921AAF00200449A5C /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD31481821AAF00200449A5C /* MapsViewController.m */; };
+		DD31481C21AAFF5B00449A5C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD31481B21AAFF5B00449A5C /* MapKit.framework */; };
+		DD31481E21AAFFBD00449A5C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD31481D21AAFFBD00449A5C /* CoreLocation.framework */; };
+		DD31482121AB033000449A5C /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD31482021AB033000449A5C /* LocationManager.m */; };
+		DD5F1F0221B2EED80058A34C /* QRScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5F1F0121B2EED80058A34C /* QRScannerViewController.m */; };
+		DD5F1F0421B2F0620058A34C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5F1F0321B2F0620058A34C /* AVFoundation.framework */; };
+		DD5F1F0721B310A70058A34C /* ServerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5F1F0621B310A70058A34C /* ServerHandler.m */; };
+		DD5F1F2621B52EC70058A34C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD5F1F2821B52EC70058A34C /* Localizable.strings */; };
+		DD5F1F2F21B531B90058A34C /* LocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5F1F2E21B531B90058A34C /* LocalizationManager.m */; };
+		DD5F1F3821B6A6DC0058A34C /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5F1F3721B6A6DB0058A34C /* PDFViewController.m */; };
+		DD5F1F3C21B6BFC70058A34C /* #WWDC18.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD5F1F3B21B6BFC70058A34C /* #WWDC18.pdf */; };
+		DD5F1F4021B6C16B0058A34C /* HTMLtoPDFMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5F1F3F21B6C16B0058A34C /* HTMLtoPDFMaker.m */; };
+		DD5F1F4321B6C1D80058A34C /* HTMLtoPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5F1F4221B6C1D80058A34C /* HTMLtoPDFViewController.m */; };
+		DD5F1F4621B6C2410058A34C /* HTMLtoPDFPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5F1F4521B6C2410058A34C /* HTMLtoPDFPreviewController.m */; };
+		DD5F1F4821B6CAB80058A34C /* MyLittlePDF.html in Resources */ = {isa = PBXBuildFile; fileRef = DD5F1F4721B6CAB80058A34C /* MyLittlePDF.html */; };
+		DD69C1BD21BECA1500D4E8D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD69C1BF21BECA1500D4E8D3 /* InfoPlist.strings */; };
+		DD69C1C221BED30500D4E8D3 /* icon~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = DD69C1C121BED30500D4E8D3 /* icon~iphone.png */; };
+		DDA8F20821ABE42600760657 /* GallaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA8F20721ABE42600760657 /* GallaryViewController.m */; };
+		DDA8F20C21ABE59C00760657 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA8F20B21ABE59C00760657 /* BaseViewController.m */; };
+		DDA8F21021ABE8C000760657 /* ServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA8F20F21ABE8C000760657 /* ServerViewController.m */; };
+		DDD4056821AAAF6F0090ADB8 /* MyLittleAppCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD4056721AAAF6F0090ADB8 /* MyLittleAppCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD14B2F021A956B100EC6729 /* MyLittleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLittleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD14B2F321A956B100EC6729 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD14B2F421A956B100EC6729 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD14B2FA21A956B100EC6729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD14B2FD21A956B100EC6729 /* MyLittleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyLittleApp.xcdatamodel; sourceTree = "<group>"; };
+		DD14B2FF21A956B500EC6729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD14B30221A956B500EC6729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD14B30421A956B500EC6729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD14B30521A956B500EC6729 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD14B30C21A95B3C00EC6729 /* MainCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewController.h; sourceTree = "<group>"; };
+		DD14B30D21A95B3C00EC6729 /* MainCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewController.m; sourceTree = "<group>"; };
+		DD31481721AAF00200449A5C /* MapsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
+		DD31481821AAF00200449A5C /* MapsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
+		DD31481B21AAFF5B00449A5C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DD31481D21AAFFBD00449A5C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DD31481F21AB033000449A5C /* LocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		DD31482021AB033000449A5C /* LocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		DD5F1F0021B2EED80058A34C /* QRScannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRScannerViewController.h; sourceTree = "<group>"; };
+		DD5F1F0121B2EED80058A34C /* QRScannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRScannerViewController.m; sourceTree = "<group>"; };
+		DD5F1F0321B2F0620058A34C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DD5F1F0521B310A70058A34C /* ServerHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerHandler.h; sourceTree = "<group>"; };
+		DD5F1F0621B310A70058A34C /* ServerHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerHandler.m; sourceTree = "<group>"; };
+		DD5F1F0921B3EC210058A34C /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
+		DD5F1F2721B52EC70058A34C /* en */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD5F1F2921B5301F0058A34C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		DD5F1F2A21B5301F0058A34C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DD5F1F2B21B530200058A34C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD5F1F2D21B531B90058A34C /* LocalizationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizationManager.h; sourceTree = "<group>"; };
+		DD5F1F2E21B531B90058A34C /* LocalizationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizationManager.m; sourceTree = "<group>"; };
+		DD5F1F3221B536480058A34C /* MyLittleApp_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLittleApp_Prefix.pch; sourceTree = "<group>"; };
+		DD5F1F3421B5625E0058A34C /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		DD5F1F3621B6A6DB0058A34C /* PDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		DD5F1F3721B6A6DB0058A34C /* PDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		DD5F1F3B21B6BFC70058A34C /* #WWDC18.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "#WWDC18.pdf"; sourceTree = "<group>"; };
+		DD5F1F3E21B6C16B0058A34C /* HTMLtoPDFMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLtoPDFMaker.h; sourceTree = "<group>"; };
+		DD5F1F3F21B6C16B0058A34C /* HTMLtoPDFMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLtoPDFMaker.m; sourceTree = "<group>"; };
+		DD5F1F4121B6C1D80058A34C /* HTMLtoPDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLtoPDFViewController.h; sourceTree = "<group>"; };
+		DD5F1F4221B6C1D80058A34C /* HTMLtoPDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLtoPDFViewController.m; sourceTree = "<group>"; };
+		DD5F1F4421B6C2410058A34C /* HTMLtoPDFPreviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLtoPDFPreviewController.h; sourceTree = "<group>"; };
+		DD5F1F4521B6C2410058A34C /* HTMLtoPDFPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLtoPDFPreviewController.m; sourceTree = "<group>"; };
+		DD5F1F4721B6CAB80058A34C /* MyLittlePDF.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MyLittlePDF.html; sourceTree = "<group>"; };
+		DD69C1BE21BECA1500D4E8D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD69C1C021BECA1800D4E8D3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD69C1C121BED30500D4E8D3 /* icon~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon~iphone.png"; sourceTree = "<group>"; };
+		DDA8F20621ABE42600760657 /* GallaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GallaryViewController.h; sourceTree = "<group>"; };
+		DDA8F20721ABE42600760657 /* GallaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GallaryViewController.m; sourceTree = "<group>"; };
+		DDA8F20A21ABE59C00760657 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DDA8F20B21ABE59C00760657 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DDA8F20E21ABE8C000760657 /* ServerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerViewController.h; sourceTree = "<group>"; };
+		DDA8F20F21ABE8C000760657 /* ServerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerViewController.m; sourceTree = "<group>"; };
+		DDD4056621AAAF6F0090ADB8 /* MyLittleAppCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLittleAppCollectionViewCell.h; sourceTree = "<group>"; };
+		DDD4056721AAAF6F0090ADB8 /* MyLittleAppCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLittleAppCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD14B2ED21A956B100EC6729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5F1F0421B2F0620058A34C /* AVFoundation.framework in Frameworks */,
+				DD31481E21AAFFBD00449A5C /* CoreLocation.framework in Frameworks */,
+				DD31481C21AAFF5B00449A5C /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD14B2E721A956B100EC6729 = {
+			isa = PBXGroup;
+			children = (
+				DD14B2F221A956B100EC6729 /* MyLittleApp */,
+				DD5F1F3221B536480058A34C /* MyLittleApp_Prefix.pch */,
+				DD14B2F121A956B100EC6729 /* Products */,
+				DD31481A21AAFF5B00449A5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD14B2F121A956B100EC6729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD14B2F021A956B100EC6729 /* MyLittleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD14B2F221A956B100EC6729 /* MyLittleApp */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F1F3321B562270058A34C /* Defines */,
+				DD5F1F2C21B531770058A34C /* Localization */,
+				DD5F1EFF21B2EDE50058A34C /* QRScanner */,
+				DDA8F20D21ABE88600760657 /* Server */,
+				DDA8F20921ABE58900760657 /* Base */,
+				DD5F1F3521B6A6B00058A34C /* PDF */,
+				DDA8F20521ABE3AE00760657 /* Gallary */,
+				DD14B2F321A956B100EC6729 /* AppDelegate.h */,
+				DD14B2F421A956B100EC6729 /* AppDelegate.m */,
+				DD14B30C21A95B3C00EC6729 /* MainCollectionViewController.h */,
+				DD14B30D21A95B3C00EC6729 /* MainCollectionViewController.m */,
+				DDD4056621AAAF6F0090ADB8 /* MyLittleAppCollectionViewCell.h */,
+				DDD4056721AAAF6F0090ADB8 /* MyLittleAppCollectionViewCell.m */,
+				DD31481621AAEFAF00449A5C /* Maps */,
+				DD14B2F921A956B100EC6729 /* Main.storyboard */,
+				DD14B2FF21A956B500EC6729 /* Assets.xcassets */,
+				DD14B30121A956B500EC6729 /* LaunchScreen.storyboard */,
+				DD14B30421A956B500EC6729 /* Info.plist */,
+				DD14B30521A956B500EC6729 /* main.m */,
+				DD14B2FC21A956B100EC6729 /* MyLittleApp.xcdatamodeld */,
+				DD5F1F2321B52E5D0058A34C /* Resources */,
+			);
+			path = MyLittleApp;
+			sourceTree = "<group>";
+		};
+		DD31481621AAEFAF00449A5C /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				DD31481721AAF00200449A5C /* MapsViewController.h */,
+				DD31481821AAF00200449A5C /* MapsViewController.m */,
+				DD31481F21AB033000449A5C /* LocationManager.h */,
+				DD31482021AB033000449A5C /* LocationManager.m */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		DD31481A21AAFF5B00449A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F1F0321B2F0620058A34C /* AVFoundation.framework */,
+				DD31481D21AAFFBD00449A5C /* CoreLocation.framework */,
+				DD31481B21AAFF5B00449A5C /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5F1EFF21B2EDE50058A34C /* QRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F1F0021B2EED80058A34C /* QRScannerViewController.h */,
+				DD5F1F0121B2EED80058A34C /* QRScannerViewController.m */,
+			);
+			path = QRScanner;
+			sourceTree = "<group>";
+		};
+		DD5F1F2321B52E5D0058A34C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD69C1C121BED30500D4E8D3 /* icon~iphone.png */,
+				DD5F1F4721B6CAB80058A34C /* MyLittlePDF.html */,
+				DD5F1F3B21B6BFC70058A34C /* #WWDC18.pdf */,
+				DD5F1F2821B52EC70058A34C /* Localizable.strings */,
+				DD69C1BF21BECA1500D4E8D3 /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD5F1F2C21B531770058A34C /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F1F2D21B531B90058A34C /* LocalizationManager.h */,
+				DD5F1F2E21B531B90058A34C /* LocalizationManager.m */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		DD5F1F3321B562270058A34C /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F1F3421B5625E0058A34C /* Defines.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		DD5F1F3521B6A6B00058A34C /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F1F3D21B6C1320058A34C /* HTMLtoPDFMaker */,
+				DD5F1F3621B6A6DB0058A34C /* PDFViewController.h */,
+				DD5F1F3721B6A6DB0058A34C /* PDFViewController.m */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		DD5F1F3D21B6C1320058A34C /* HTMLtoPDFMaker */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F1F3E21B6C16B0058A34C /* HTMLtoPDFMaker.h */,
+				DD5F1F3F21B6C16B0058A34C /* HTMLtoPDFMaker.m */,
+				DD5F1F4121B6C1D80058A34C /* HTMLtoPDFViewController.h */,
+				DD5F1F4221B6C1D80058A34C /* HTMLtoPDFViewController.m */,
+				DD5F1F4421B6C2410058A34C /* HTMLtoPDFPreviewController.h */,
+				DD5F1F4521B6C2410058A34C /* HTMLtoPDFPreviewController.m */,
+			);
+			path = HTMLtoPDFMaker;
+			sourceTree = "<group>";
+		};
+		DDA8F20521ABE3AE00760657 /* Gallary */ = {
+			isa = PBXGroup;
+			children = (
+				DDA8F20621ABE42600760657 /* GallaryViewController.h */,
+				DDA8F20721ABE42600760657 /* GallaryViewController.m */,
+			);
+			path = Gallary;
+			sourceTree = "<group>";
+		};
+		DDA8F20921ABE58900760657 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DDA8F20A21ABE59C00760657 /* BaseViewController.h */,
+				DDA8F20B21ABE59C00760657 /* BaseViewController.m */,
+				DD5F1F0521B310A70058A34C /* ServerHandler.h */,
+				DD5F1F0621B310A70058A34C /* ServerHandler.m */,
+				DD5F1F0921B3EC210058A34C /* Protocols.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DDA8F20D21ABE88600760657 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				DDA8F20E21ABE8C000760657 /* ServerViewController.h */,
+				DDA8F20F21ABE8C000760657 /* ServerViewController.m */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD14B2EF21A956B100EC6729 /* MyLittleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD14B30921A956B500EC6729 /* Build configuration list for PBXNativeTarget "MyLittleApp" */;
+			buildPhases = (
+				DD14B2EC21A956B100EC6729 /* Sources */,
+				DD14B2ED21A956B100EC6729 /* Frameworks */,
+				DD14B2EE21A956B100EC6729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLittleApp;
+			productName = MyLittleApp;
+			productReference = DD14B2F021A956B100EC6729 /* MyLittleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD14B2E821A956B100EC6729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jasmin Simon";
+				TargetAttributes = {
+					DD14B2EF21A956B100EC6729 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DD14B2EB21A956B100EC6729 /* Build configuration list for PBXProject "MyLittleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = DD14B2E721A956B100EC6729;
+			productRefGroup = DD14B2F121A956B100EC6729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD14B2EF21A956B100EC6729 /* MyLittleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD14B2EE21A956B100EC6729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD14B30321A956B500EC6729 /* LaunchScreen.storyboard in Resources */,
+				DD69C1BD21BECA1500D4E8D3 /* InfoPlist.strings in Resources */,
+				DD5F1F2621B52EC70058A34C /* Localizable.strings in Resources */,
+				DD5F1F3C21B6BFC70058A34C /* #WWDC18.pdf in Resources */,
+				DD69C1C221BED30500D4E8D3 /* icon~iphone.png in Resources */,
+				DD5F1F4821B6CAB80058A34C /* MyLittlePDF.html in Resources */,
+				DD14B30021A956B500EC6729 /* Assets.xcassets in Resources */,
+				DD14B2FB21A956B100EC6729 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD14B2EC21A956B100EC6729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5F1F4021B6C16B0058A34C /* HTMLtoPDFMaker.m in Sources */,
+				DD5F1F0221B2EED80058A34C /* QRScannerViewController.m in Sources */,
+				DD14B30E21A95B3C00EC6729 /* MainCollectionViewController.m in Sources */,
+				DD5F1F0721B310A70058A34C /* ServerHandler.m in Sources */,
+				DD5F1F4621B6C2410058A34C /* HTMLtoPDFPreviewController.m in Sources */,
+				DDA8F20C21ABE59C00760657 /* BaseViewController.m in Sources */,
+				DD5F1F4321B6C1D80058A34C /* HTMLtoPDFViewController.m in Sources */,
+				DDA8F20821ABE42600760657 /* GallaryViewController.m in Sources */,
+				DD5F1F3821B6A6DC0058A34C /* PDFViewController.m in Sources */,
+				DD31482121AB033000449A5C /* LocationManager.m in Sources */,
+				DD14B2F521A956B100EC6729 /* AppDelegate.m in Sources */,
+				DD14B30621A956B500EC6729 /* main.m in Sources */,
+				DD5F1F2F21B531B90058A34C /* LocalizationManager.m in Sources */,
+				DD14B2FE21A956B100EC6729 /* MyLittleApp.xcdatamodeld in Sources */,
+				DDD4056821AAAF6F0090ADB8 /* MyLittleAppCollectionViewCell.m in Sources */,
+				DD31481921AAF00200449A5C /* MapsViewController.m in Sources */,
+				DDA8F21021ABE8C000760657 /* ServerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD14B2F921A956B100EC6729 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD14B2FA21A956B100EC6729 /* Base */,
+				DD5F1F2921B5301F0058A34C /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD14B30121A956B500EC6729 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD14B30221A956B500EC6729 /* Base */,
+				DD5F1F2A21B5301F0058A34C /* de */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5F1F2821B52EC70058A34C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5F1F2721B52EC70058A34C /* en */,
+				DD5F1F2B21B530200058A34C /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DD69C1BF21BECA1500D4E8D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD69C1BE21BECA1500D4E8D3 /* en */,
+				DD69C1C021BECA1800D4E8D3 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD14B30721A956B500EC6729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JG88QU4UZA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyLittleApp_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD14B30821A956B500EC6729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JG88QU4UZA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyLittleApp_Prefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD14B30A21A956B500EC6729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG88QU4UZA;
+				INFOPLIST_FILE = MyLittleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "js-apps.de.MyLittleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DD14B30B21A956B500EC6729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG88QU4UZA;
+				INFOPLIST_FILE = MyLittleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "js-apps.de.MyLittleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD14B2EB21A956B100EC6729 /* Build configuration list for PBXProject "MyLittleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD14B30721A956B500EC6729 /* Debug */,
+				DD14B30821A956B500EC6729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD14B30921A956B500EC6729 /* Build configuration list for PBXNativeTarget "MyLittleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD14B30A21A956B500EC6729 /* Debug */,
+				DD14B30B21A956B500EC6729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD14B2FC21A956B100EC6729 /* MyLittleApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD14B2FD21A956B100EC6729 /* MyLittleApp.xcdatamodel */,
+			);
+			currentVersion = DD14B2FD21A956B100EC6729 /* MyLittleApp.xcdatamodel */;
+			path = MyLittleApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD14B2E821A956B100EC6729 /* Project object */;
+}

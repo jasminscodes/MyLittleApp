@@ -1,0 +1,14 @@
+//
+//  MyLittleApp_Prefix.pch
+//  MyLittleApp
+//
+//  Created by Jasmin Simon on 03.12.18.
+//  Copyright © 2018 Jasmin Simon. All rights reserved.
+//
+
+#ifndef MyLittleApp_Prefix_pch
+#define MyLittleApp_Prefix_pch
+
+#import "LocalizationManager.h"
+
+#endif /* MyLittleApp_Prefix_pch */

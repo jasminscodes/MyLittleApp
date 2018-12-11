@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  MyLittleApp
+
+  Created by Jasmin Simon on 10.12.18.
+  Copyright © 2018 Jasmin Simon. All rights reserved.
+*/
+
+
+"NSLocationWhenInUseUsageDescription"= "MyLittleApp zeigt den aktuellen Standort an.";
+"NSCameraUsageDescription"="MyLttleApp verwendet die Kamera für die QR Funktion.";

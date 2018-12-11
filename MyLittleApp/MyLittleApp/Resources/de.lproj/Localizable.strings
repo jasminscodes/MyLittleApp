@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  MyLittleApp
+
+  Created by Jasmin Simon on 03.12.18.
+  Copyright © 2018 Jasmin Simon. All rights reserved.
+*/
+
+
+// Cells
+"CELLS_1"="Einstellungen";
+"CELLS_2"="Server";
+"CELLS_3"="Karten";
+"CELLS_4"="Galerie";
+"CELLS_5"="QR Code";
+"CELLS_6"="PDF";
+
+// Buttons
+"BUTTON_OK"="OK";
+"BUTTON_BACK"="Zurück";
+"BUTTON_CANCEL"="Abbrechen";
+
+// Navigation Title
+"NAV_TITLE"="My little App";
+
+// Navigation Button
+"NAV_BUTTON_LEFT_QR"="Scanne QR Code";
+"NAV_BUTTON_RIGHT_QR"="Erstelle QR Code";
+"NAV_BUTTON_LEFT_SERVER"="Lade Bild vom Server";
+"NAV_BUTTON_RIGHT_SERVER"="Lade Daten vom Server";
+"NAV_BUTTON_LEFT_PDF"="Lade PDF";
+"NAV_BUTTON_RIGHT_PDF"="Erstelle PDF";
+
+// Label Title
+"INFO_LABEL_TITLE_QR_READY"="Bereit zum Scannen";
+"INFO_LABEL_TITLE_SERVER_HTTP_STATUS"="HTTP Code Status";
+
+// Alert
+"ALERT_INFO_TITLE"="Info";
+"ALERT_INFO_MESSAGE"="Dieser QR Code ist ein http Link. Wollen Sie diesen öffnen?";
+
+// Error text
+"ERROR_PDF_LOAD"="PDF konnte nicht geladen werden";
+"ERROR_PDF_GENERATE"="PDF konnte nicht erstellt werden";
+
+// HTML text
+"HTML_TEXT_1"="Dies war ürsprünglich eine HTML Seite,";
+"HTML_TEXT_2"="die jetzt in ein PDF umgewandelt wurde.";
